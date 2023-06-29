@@ -26,13 +26,28 @@ Erstelle eine weitere Seite, auf der der gespeicherte Inhalt dargestellt wird.
 
 ### Plan
 #### Client
-title: input 
-article: textarea
+title: text (input) 
+text: textarea
+author: text (input)
 button: publish
+We may extend this later.
 
 #### Server
-save article in JSON file
+save article to database
+table articles
 all articles will be saved to same file
 
 #### Output
-print all articles to same webpage
+
+
+# Features
+- (todo) independent page for save of article into database
+- (todo) server page for creation of article in database
+- (todo) print all articles to same webpage
+- (done) independent page for creation of database -> in terminal: "node .\create_or_list_db.js"
+- (done) independent page to check database existence -> in terminal: "node .\check_db_existence.js"
+
+# Required
+- see package.json
+- node
+- nano
