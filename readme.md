@@ -34,7 +34,7 @@ We may extend this later.
 
 #### Server
 save article to database
-table articles
+articles
 all articles will be saved to same file
 
 #### Output
