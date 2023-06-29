@@ -9,13 +9,12 @@ import nano from 'nano';
 
 // Credentials für die Anmeldung in Couch
 const username = 'admin', password = 'asy';
-const dbName = 'autos';
-const meinAuto = {
-    marke: 'Hyundai',
-    modell: 'i20',
-    leistungKW: 62,
-    farbe: 'braun',
-    leasing: false
+const dbName = 'article_db';
+const newArticle = {
+    title: 'Schwert der Atlanter gefunden',
+    text: 'Noch ein Schwert der mystischen Atlanter wurde gefunden. Es soll noch mehr sexy machen.',
+    author: "Erich von Däniken",
+    reliability: 3
 }
 
 const getArticleDB = () => {
@@ -49,7 +48,7 @@ const init = () => {
     const articleDB = getArticleDB();
 
     // add article to db
-    addArticle(meinAuto, articleDB);
+    addArticle(newArticle, articleDB);
 
     //logExistingArticles(articleDB);
 }
