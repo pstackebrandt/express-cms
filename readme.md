@@ -41,7 +41,7 @@ all articles will be saved to same file
 
 
 # Features
-- (todo) independent page for save of article into database
+- (done) independent page for save of 1 article into database
 - (todo) server page for creation of article in database
 - (todo) print all articles to same webpage
 - (done) independent page for creation of database -> in terminal: "node .\create_or_list_db.js"
