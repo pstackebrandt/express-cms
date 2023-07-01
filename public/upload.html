@@ -12,19 +12,28 @@
 </head>
 
 <body>
-    <form id="formUpload">
-        <p><label for="title">Title</label>
-            <input type="text" name="title" id="title" />
-        </p>
-        <p><label for="title">Text</label>
-            <textarea name="articleText" id="articleText" title="text"></textarea>
-        </p>
-        <p>
-            <button type="submit">Publish</button>
-        </p>
-    </form>
+    <main>
+        <h1>New Articel</h1>
+        <form id="articleForm" title="New Article">
+            <h2>Create your next genious article:</h2>
+            <p><label for="title">Title</label>
+                <input type="text" name="title" id="title" value="A wonderful day" />
+            </p>
+            <p><label for="text">Text</label>
+                <textarea name="text" id="text" title="Text">Today we will have a really enjoyable day!!</textarea>
+            </p>
+            <p><label for="author">Author</label>
+                <input type="text" name="author" id="author" value="Pedro S." />
+            </p>
+            <p><label for="reliability">Reliability</label>
+                <input type="number" name="reliability" id="reliability" value="5" />
+            <p>Best: 10, none: 1</p>
+            <p>
+                <button type="submit">Publish</button>
+            </p>
+        </form>
 
-    <main></main>
+    </main>
 </body>
 
 </html>
